@@ -1,0 +1,6 @@
+apply plugin: 'java-library'
+
+dependencies {
+    compileOnly "com.google.auto.factory:auto-factory:1.0-beta6"
+    annotationProcessor "com.google.auto.factory:auto-factory:1.0-beta6"
+}
